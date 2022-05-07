@@ -4,7 +4,7 @@ Repositories Overview
 Repositories purposes
 ~~~~~~~~~~~~~~~~~~~~~
 
-Our codebases fall in one of six categories:
+ReDATA consists of the following six categories:
  1. Common/general software used throughout ReDATA codebases
  2. Documentation
  3. Identity and access management (IAM)
@@ -29,7 +29,7 @@ Our codebases fall in one of six categories:
 | :ual-re:`ldcoolp-figshare <ldcoolp-figshare>` | Curation      | Python backend API for access to the Figshare API for Figshare for         |
 |                                               |               | Institutions instances                                                     |
 +-----------------------------------------------+---------------+----------------------------------------------------------------------------+
-| :ual-re:`redata-commons <redata-commons>`     | General       | A set of common modules, code, and external libraries used throughout      |
+| :ual-re:`redata-commons <redata-commons>`     | Common        | A set of common modules, code, and external libraries used throughout      |
 |                                               |               | ReDATA codebases.                                                          |
 +-----------------------------------------------+---------------+----------------------------------------------------------------------------+
 | :ual-re:`redata-docs <redata-docs>`           | Documentation | The repository hosting the current pages you are viewing on Read The Docs  |
