@@ -4,8 +4,7 @@ Project Management
 An Overview
 -----------
 
-For software development purposes, we utilize ``git`` and GitHub extensively
-for version control and project management. This is crucial since we must
+We utilize ``git`` and GitHub extensively for version control and project management. This is crucial since we must
 keep track of hundreds of bugs, improvements, and changes for several
 repositories.
 
@@ -74,12 +73,20 @@ Examples include:
 
 1. ``feature/235_preserve_prep`` for :ual-re:`LD-Cool-P#235 <LD-Cool-P/issues/235>`
 2. ``hotfix/229_400_error`` for :ual-re:`LD-Cool-P#229 <LD-Cool-P/issues/229>`
+3. ``chore/242_gitignore`` for :ual-re:`LD-Cool-P#242 <LD-Cool-P/issues/242>`
 
 Note: Our branching model initially followed a ``git-flow`` workflow with
 features, hotfixes, and releases; however, we later moved away from that
 model and now use a GitHub flow workflow where all changes are merged into
 the ``master``/``main`` branch after review and testing.
 
+
+Steps for LD-COOL-P
+=========
+1. update __init__.py 
+2. update setup.py
+3. update README.md
+4. update CHANGELOG.md
 
 Versioning and tagging
 ----------------------
