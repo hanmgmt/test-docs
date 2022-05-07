@@ -21,7 +21,7 @@ Our codebases fall in one of six categories:
 +-----------------------------------------------+---------------+----------------------------------------------------------------------------+
 | :ual-re:`ReQUIAM <ReQUIAM>`                   | IAM           | Python command-line API for IAM                                            |
 +-----------------------------------------------+---------------+----------------------------------------------------------------------------+
-| :ual-re:`ReQUIAM_csv <ReQUIAM_csv>`           | IAM           | Python command-line API and database of groups for IAM                     |
+| :ual-re:`ReQUIAM_csv <ReQUIAM_csv>`           | IAM           | Python API and csv for IAM                     |
 +-----------------------------------------------+---------------+----------------------------------------------------------------------------+
 | :ual-re:`figshare <figshare>`                 | Curation,     | A forked copy of `cognoma's`_ repository used to gather                    |
 |                                               | Preservation  | public/private data from Figshare API                                      |
