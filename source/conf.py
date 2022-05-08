@@ -19,7 +19,8 @@ sys.path.insert(0, '../')
 
 # -- Project information -----------------------------------------------------
 
-project = 'redata'
+
+project = 'ReDATA'
 copyright = '2022, Arizona Board of Regents'
 author = 'UA Research Data Repository (ReDATA) Team'
 
