@@ -38,7 +38,6 @@ ReDATA consists of the following six categories:
 |                                               |               | operational side of ReDATA                                                 |
 +-----------------------------------------------+---------------+----------------------------------------------------------------------------+
 
-
 Repositories details
 ~~~~~~~~~~~~~~~~~~~~
 
