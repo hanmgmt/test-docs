@@ -4,7 +4,7 @@ Repositories Overview
 Repositories purposes
 ~~~~~~~~~~~~~~~~~~~~~
 
-ReDATA consists of the following six categories:
+Our codebases fall in one of six categories:
  1. Common/general software used throughout ReDATA codebases
  2. Documentation
  3. Identity and access management (IAM)
@@ -21,7 +21,7 @@ ReDATA consists of the following six categories:
 +-----------------------------------------------+---------------+----------------------------------------------------------------------------+
 | :ual-re:`ReQUIAM <ReQUIAM>`                   | IAM           | Python command-line API for IAM                                            |
 +-----------------------------------------------+---------------+----------------------------------------------------------------------------+
-| :ual-re:`ReQUIAM_csv <ReQUIAM_csv>`           | IAM           | Python API and csv for IAM                     |
+| :ual-re:`ReQUIAM_csv <ReQUIAM_csv>`           | IAM           | Python programs and CSV files for ReQUIAM                                  |
 +-----------------------------------------------+---------------+----------------------------------------------------------------------------+
 | :ual-re:`figshare <figshare>`                 | Curation,     | A forked copy of `cognoma's`_ repository used to gather                    |
 |                                               | Preservation  | public/private data from Figshare API                                      |
@@ -29,7 +29,7 @@ ReDATA consists of the following six categories:
 | :ual-re:`ldcoolp-figshare <ldcoolp-figshare>` | Curation      | Python backend API for access to the Figshare API for Figshare for         |
 |                                               |               | Institutions instances                                                     |
 +-----------------------------------------------+---------------+----------------------------------------------------------------------------+
-| :ual-re:`redata-commons <redata-commons>`     | Common        | A set of common modules, code, and external libraries used throughout      |
+| :ual-re:`redata-commons <redata-commons>`     | General       | A set of common modules, code, and external libraries used throughout      |
 |                                               |               | ReDATA codebases.                                                          |
 +-----------------------------------------------+---------------+----------------------------------------------------------------------------+
 | :ual-re:`redata-docs <redata-docs>`           | Documentation | The repository hosting the current pages you are viewing on Read The Docs  |
@@ -37,6 +37,7 @@ ReDATA consists of the following six categories:
 | :ual-re:`redata-iac <redata-iac>`             | IaC           | Repository containing Infrastructure as Code (IaC) and scripts used on the |
 |                                               |               | operational side of ReDATA                                                 |
 +-----------------------------------------------+---------------+----------------------------------------------------------------------------+
+
 
 Repositories details
 ~~~~~~~~~~~~~~~~~~~~
@@ -50,7 +51,7 @@ Repositories details
 +-----------------------------------------------+----------------------------+---------------+-------------------------------+-------------+---------------------------------------------+
 | :ual-re:`ReBACH <ReBACH>`                     | N/A                        | TBC           | `README`__                    | ``main``    | TBD                                         |
 +-----------------------------------------------+----------------------------+---------------+-------------------------------+-------------+---------------------------------------------+
-| :ual-re:`ReQUIAM <ReQUIAM>`                   | |ReQUIAM_version|          | `CHANGELOG`__ | :rtd:`RTD <requiam>`          | ``master``  | N/A                                         |
+| :ual-re:`ReQUIAM <ReQUIAM>`                   | |ReQUIAM_version|          | `CHANGELOG`__ | `README`__                    | ``master``  | N/A                                         |
 +-----------------------------------------------+----------------------------+---------------+-------------------------------+-------------+---------------------------------------------+
 | :ual-re:`ReQUIAM_csv <ReQUIAM_csv>`           | |ReQUIAM_csv_version|      | TBC           | :rtd:`RTD <requiam-csv>`      | ``master``  | N/A                                         |
 +-----------------------------------------------+----------------------------+---------------+-------------------------------+-------------+---------------------------------------------+
