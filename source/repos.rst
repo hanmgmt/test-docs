@@ -51,7 +51,7 @@ Repositories details
 +-----------------------------------------------+----------------------------+---------------+-------------------------------+-------------+---------------------------------------------+
 | :ual-re:`ReBACH <ReBACH>`                     | N/A                        | TBC           | `README`__                    | ``main``    | TBD                                         |
 +-----------------------------------------------+----------------------------+---------------+-------------------------------+-------------+---------------------------------------------+
-| :ual-re:`ReQUIAM <ReQUIAM>`                   | |ReQUIAM_version|          | `CHANGELOG`__ | 'README`__ :rtd:`RTD <requiam>| ``master``  | N/A                                         |
+| :ual-re:`ReQUIAM <ReQUIAM>`                   | |ReQUIAM_version|          | `CHANGELOG`__ | :rtd:`RTD <requiam>           | ``master``  | N/A                                         |
 +-----------------------------------------------+----------------------------+---------------+-------------------------------+-------------+---------------------------------------------+
 | :ual-re:`ReQUIAM_csv <ReQUIAM_csv>`           | |ReQUIAM_csv_version|      | TBC           | :rtd:`RTD <requiam-csv>`      | ``master``  | N/A                                         |
 +-----------------------------------------------+----------------------------+---------------+-------------------------------+-------------+---------------------------------------------+
@@ -140,8 +140,6 @@ Below summarizes open and closed issues and pull requests.
 .. __: https://github.com/UAL-RE/ReBACH/blob/main/README.md
 
 .. __: https://github.com/UAL-RE/ReQUIAM/blob/master/CHANGELOG.md
-
-.. __: https://github.com/UAL-RE/ReQUIAM/blob/master/README.md
 
 .. __: https://github.com/UAL-RE/ldcoolp-figshare/blob/main/CHANGELOG.md
 
