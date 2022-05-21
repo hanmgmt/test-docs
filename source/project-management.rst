@@ -31,13 +31,14 @@ The general workflow are as follow when starting any improvement:
 3. Commit changes to branch and push them to the new branch on the remote
    repository (i.e. GitHub)
 4. Create a PR within the repository to merge the new branch into the
-   ``master``/``main`` branch
+  ``main``/``master`` branch
 5. A team member reviews the PR (if enough developers are on staff).
    Self-review are OK if staff is limited.
 6. The changes are merged into the ``master``/``main`` branch and any
    associated tags are pushed to the remote repository
 7. The software is manually deployed
 
+Note: please use `Github rename master to main`_ . 
 
 Branching
 ---------
@@ -146,6 +147,7 @@ See :ref:`Repositories status`
 
 .. _`GitHub issues`: https://guides.github.com/features/issues/
 .. _`GitHub pull requests`: https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+.. _`GitHub rename`: https://docs.github.com/
 .. _`GitHub project boards`: https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards
 .. _`PyPI`: https://pypi.org
 .. _`Semantic versioning`: https://semver.org/
