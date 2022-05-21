@@ -37,7 +37,8 @@ The general workflow are as follow when starting any improvement:
    associated tags are pushed to the remote repository
 7. The software is manually deployed
 
-Note: please use `Github rename master to main`_ .
+Note: The default branch name is set to "main" starting Oct 1, 2020, not "master" anymore.
+For more info: please see `Github rename master to main`_ . Certain repositories still have default branch as "master".
 
 Branching
 ---------
@@ -80,13 +81,6 @@ features, hotfixes, and releases; however, we later moved away from that
 model and now use a GitHub flow workflow where all changes are merged into
 the ``main``/``master`` branch after review and testing.
 
-
-Steps for LD-COOL-P
-=========
-1. update __init__.py 
-2. update setup.py
-3. update README.md
-4. update CHANGELOG.md
 
 Versioning and tagging
 ----------------------
