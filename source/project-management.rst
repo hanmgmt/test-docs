@@ -84,6 +84,12 @@ the ``main``/``master`` branch after review and testing.
 
 Versioning and tagging
 ----------------------
+Before creating a new tag, we need to make sure all related files updated to reflect the new tag.
+These files shall be checked and updated if existing:
+1. Update __init__.py
+2. Update setup.py
+3. Update README.md
+4. Update changelog.md
 
 In all of our software, we conduct version tagging.
 Here, each new version refers to a change to the codebase that is to
@@ -140,7 +146,7 @@ See :ref:`Repositories status`
 
 .. _`GitHub issues`: https://guides.github.com/features/issues/
 .. _`GitHub pull requests`: https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
-.. _`GitHub rename master to main`: https://docs.github.com/
+.. _`GitHub rename master to main`: https://github.com/github/renaming
 .. _`GitHub project boards`: https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards
 .. _`PyPI`: https://pypi.org
 .. _`Semantic versioning`: https://semver.org/
