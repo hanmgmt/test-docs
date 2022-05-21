@@ -11,7 +11,7 @@ repositories.
 We use GitHub tools to track and implement changes to the software. First, we
 use `GitHub issues`_ to identify and track bugs/issues/features, and
 `GitHub pull requests`_ or "PR" so that a developer can suggest a set of
-changes to be merged into the ``master``/``main`` branch. Within these
+changes to be merged into the ``main``/``master`` branch. Within these
 issue and PR tracking, we use labels to indicate what these changes/problems
 pertain to. Each repository has a set of labels. Labels are helpful to
 understand scope and impact and aids in GitHub search engine optimization.
@@ -30,15 +30,14 @@ The general workflow are as follow when starting any improvement:
 2. Create a new branch locally
 3. Commit changes to branch and push them to the new branch on the remote
    repository (i.e. GitHub)
-4. Create a PR within the repository to merge the new branch into the
-  ``main``/``master`` branch
+4. Create a PR within the repository to merge the new branch into the ``main``/``master`` branch
 5. A team member reviews the PR (if enough developers are on staff).
    Self-review are OK if staff is limited.
-6. The changes are merged into the ``master``/``main`` branch and any
+6. The changes are merged into the ``main``/``master`` branch and any
    associated tags are pushed to the remote repository
 7. The software is manually deployed
 
-Note: please use `Github rename master to main`_ . 
+Note: please use `Github rename master to main`_ .
 
 Branching
 ---------
@@ -48,19 +47,19 @@ This is because, at any point, multiple features/bugs are being addressed,
 and changes pushed directly to the main branch could break the software if
 it is *untested or has not been reviewed*. Branching is a common Developer
 + Operations ("DevOps") best practice. To create a new ``git`` branch, use
-the following ``git`` commands:
+the following ``git`` commands: ( ``-b`` is to create a new branch)
 
 ::
 
    $ git pull master
-   $ git checkout -b <name_of_branch>
+   $ git checkout -b <new-branch>
 
 To checkout an existing branch:
 
 ::
 
    $ git branch  # To see existing branches
-   $ git checkout <name_of_branch>
+   $ git checkout <branchname>
 
 In terms of branch names, it is strongly recommended to name branches so it
 is clear and concise. We strongly recommend including:
@@ -79,7 +78,7 @@ Examples include:
 Note: Our branching model initially followed a ``git-flow`` workflow with
 features, hotfixes, and releases; however, we later moved away from that
 model and now use a GitHub flow workflow where all changes are merged into
-the ``master``/``main`` branch after review and testing.
+the ``main``/``master`` branch after review and testing.
 
 
 Steps for LD-COOL-P
@@ -147,7 +146,7 @@ See :ref:`Repositories status`
 
 .. _`GitHub issues`: https://guides.github.com/features/issues/
 .. _`GitHub pull requests`: https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
-.. _`GitHub rename`: https://docs.github.com/
+.. _`GitHub rename master to main`: https://docs.github.com/
 .. _`GitHub project boards`: https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards
 .. _`PyPI`: https://pypi.org
 .. _`Semantic versioning`: https://semver.org/
