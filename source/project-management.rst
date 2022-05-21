@@ -40,7 +40,7 @@ The general workflow are as follow when starting any improvement:
 7. The software is manually deployed
 
 Note: The default branch name is set to "main" starting Oct 1, 2020, not "master" anymore.
-(for more info: please see `Github rename master to main`_). Certain repositories still has
+(for more info: please see `Github rename master to main`_ ). Certain repositories still has
 branch "master".
 
 Branching
