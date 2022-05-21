@@ -52,7 +52,7 @@ the following ``git`` commands: ( ``-b`` is to create a new branch)
 
 ::
 
-   $ git pull master
+   $ git pull origin main
    $ git checkout -b <new-branch>
 
 To checkout an existing branch:
@@ -81,6 +81,16 @@ features, hotfixes, and releases; however, we later moved away from that
 model and now use a GitHub flow workflow where all changes are merged into
 the ``main``/``master`` branch after review and testing.
 
+Pushing and
+----------------
+
+After making changes, we recommend to push to the branch so that a pull request shall be requested for another team member to review
+the changes. To push to the remote branch:
+
+::
+    $ git add .
+    $ git commit -m "<message>"
+    $ git push origin <branchname>
 
 Versioning and tagging
 ----------------------
