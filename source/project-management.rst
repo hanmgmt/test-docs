@@ -86,6 +86,7 @@ Versioning and tagging
 ----------------------
 Before creating a new tag, we need to make sure all related files updated to reflect the new tag.
 These files shall be checked and updated if existing:
+
 1. Update __init__.py
 2. Update setup.py
 3. Update README.md
